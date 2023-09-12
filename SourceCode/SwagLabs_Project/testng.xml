@@ -4,13 +4,13 @@
 	<test name="ChromeTest">
 		<parameter name="browser" value="chrome" />
 		<classes>
-		<class name="com.qa.atliq.practical.runners.TestRunner" />
+		<class name="com.qa.saucedemo.practical.runners.TestRunner" />
 		</classes>
 	</test>
 	<test name="EdgeTest">
 		<parameter name="browser" value="edge" />
 		<classes>
-			<class name="com.qa.atliq.practical.runners.TestRunner" />
+			<class name="com.qa.saucedemo.practical.runners.TestRunner" />
 		</classes>
 	</test>
 </suite> 

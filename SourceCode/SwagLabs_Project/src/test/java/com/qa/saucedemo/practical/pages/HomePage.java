@@ -1,4 +1,4 @@
-package com.qa.atliq.practical.pages;
+package com.qa.saucedemo.practical.pages;
 
 import java.util.List;
 import org.openqa.selenium.WebDriver;

@@ -1,4 +1,4 @@
-package com.qa.atliq.practical.step.definitions;
+package com.qa.saucedemo.practical.step.definitions;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -14,10 +14,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.WindowType;
 import org.testng.annotations.Test;
 
-import com.qa.atliq.practical.pages.CheckoutCompletePage;
-import com.qa.atliq.practical.pages.CheckoutPage;
-import com.qa.atliq.practical.pages.HomePage;
-import com.qa.atliq.practical.pages.LoginPage;
+import com.qa.saucedemo.practical.pages.CheckoutCompletePage;
+import com.qa.saucedemo.practical.pages.CheckoutPage;
+import com.qa.saucedemo.practical.pages.HomePage;
+import com.qa.saucedemo.practical.pages.LoginPage;
 
 import io.cucumber.java.en.*;
 
