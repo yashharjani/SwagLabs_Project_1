@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-28T10:24:34 IST" name="Cross-Browser Test Suite" finished-at="2023-07-28T10:27:12 IST" duration-ms="158007">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@3feb2dda]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@2f953efd]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-07-28T10:24:34 IST" name="ChromeTest" finished-at="2023-07-28T10:25:55 IST" duration-ms="81533">
+      <class name="com.qa.atliq.practical.runners.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@3feb2dda]" started-at="2023-07-28T10:24:34 IST" name="setUpClass" finished-at="2023-07-28T10:24:35 IST" duration-ms="1683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a3793c7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@3feb2dda]" started-at="2023-07-28T10:24:35 IST" name="setUp" finished-at="2023-07-28T10:24:39 IST" duration-ms="3536" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@3feb2dda]" started-at="2023-07-28T10:24:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-28T10:24:52 IST" duration-ms="13011" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test the end-to-end flow process of Sauce Demo"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Feature for end-to-end testing of Sauce Demo website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@3feb2dda]" started-at="2023-07-28T10:24:52 IST" name="tearDown" finished-at="2023-07-28T10:24:52 IST" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@3feb2dda]" started-at="2023-07-28T10:24:52 IST" name="setUp" finished-at="2023-07-28T10:24:54 IST" duration-ms="1359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@3feb2dda]" started-at="2023-07-28T10:24:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-28T10:25:06 IST" duration-ms="11873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test to verify the session timeout (TC_31)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Feature for end-to-end testing of Sauce Demo website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@3feb2dda]" started-at="2023-07-28T10:25:06 IST" name="tearDown" finished-at="2023-07-28T10:25:06 IST" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@3feb2dda]" started-at="2023-07-28T10:25:06 IST" name="setUp" finished-at="2023-07-28T10:25:07 IST" duration-ms="1518" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@3feb2dda]" started-at="2023-07-28T10:25:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-28T10:25:19 IST" duration-ms="11120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test to verify that the items which were added to the cart should remain added even if the user gets logged out."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Feature for end-to-end testing of Sauce Demo website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@3feb2dda]" started-at="2023-07-28T10:25:19 IST" name="tearDown" finished-at="2023-07-28T10:25:19 IST" duration-ms="465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@3feb2dda]" started-at="2023-07-28T10:25:19 IST" name="setUp" finished-at="2023-07-28T10:25:20 IST" duration-ms="1271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@3feb2dda]" started-at="2023-07-28T10:25:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-28T10:25:26 IST" duration-ms="6122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test to verify that if the user enters given URL after login and no items are in the cart, the page access should be denied"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Feature for end-to-end testing of Sauce Demo website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@3feb2dda]" started-at="2023-07-28T10:25:26 IST" name="tearDown" finished-at="2023-07-28T10:25:29 IST" duration-ms="2130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@3feb2dda]" started-at="2023-07-28T10:25:29 IST" name="setUp" finished-at="2023-07-28T10:25:30 IST" duration-ms="1261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@3feb2dda]" started-at="2023-07-28T10:25:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-28T10:25:40 IST" duration-ms="9746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test to verify that if item is added to the cart of one user, that item should not be added to the cart for another user."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Feature for end-to-end testing of Sauce Demo website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@3feb2dda]" started-at="2023-07-28T10:25:40 IST" name="tearDown" finished-at="2023-07-28T10:25:40 IST" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@3feb2dda]" started-at="2023-07-28T10:25:40 IST" name="setUp" finished-at="2023-07-28T10:25:41 IST" duration-ms="1318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@3feb2dda]" started-at="2023-07-28T10:25:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-28T10:25:54 IST" duration-ms="12938" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test to verify that an error message should come if all items are removed from the cart list and then checkout button is clicked."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Feature for end-to-end testing of Sauce Demo website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@3feb2dda]" started-at="2023-07-28T10:25:54 IST" name="tearDown" finished-at="2023-07-28T10:25:54 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@3feb2dda]" started-at="2023-07-28T10:25:54 IST" name="tearDownClass" finished-at="2023-07-28T10:25:55 IST" duration-ms="676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.qa.atliq.practical.runners.TestRunner -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-07-28T10:25:55 IST" name="EdgeTest" finished-at="2023-07-28T10:27:12 IST" duration-ms="76443">
+      <class name="com.qa.atliq.practical.runners.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@2f953efd]" started-at="2023-07-28T10:25:55 IST" name="setUpClass" finished-at="2023-07-28T10:25:55 IST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@42b3b079]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@2f953efd]" started-at="2023-07-28T10:25:55 IST" name="setUp" finished-at="2023-07-28T10:25:57 IST" duration-ms="1570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@2f953efd]" started-at="2023-07-28T10:25:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-28T10:26:09 IST" duration-ms="12162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test the end-to-end flow process of Sauce Demo"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Feature for end-to-end testing of Sauce Demo website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@2f953efd]" started-at="2023-07-28T10:26:09 IST" name="tearDown" finished-at="2023-07-28T10:26:09 IST" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@2f953efd]" started-at="2023-07-28T10:26:09 IST" name="setUp" finished-at="2023-07-28T10:26:11 IST" duration-ms="1421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@2f953efd]" started-at="2023-07-28T10:26:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-28T10:26:24 IST" duration-ms="13186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test to verify the session timeout (TC_31)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Feature for end-to-end testing of Sauce Demo website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@2f953efd]" started-at="2023-07-28T10:26:24 IST" name="tearDown" finished-at="2023-07-28T10:26:24 IST" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@2f953efd]" started-at="2023-07-28T10:26:24 IST" name="setUp" finished-at="2023-07-28T10:26:26 IST" duration-ms="1326" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@2f953efd]" started-at="2023-07-28T10:26:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-28T10:26:36 IST" duration-ms="10691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test to verify that the items which were added to the cart should remain added even if the user gets logged out."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Feature for end-to-end testing of Sauce Demo website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@2f953efd]" started-at="2023-07-28T10:26:36 IST" name="tearDown" finished-at="2023-07-28T10:26:37 IST" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@2f953efd]" started-at="2023-07-28T10:26:37 IST" name="setUp" finished-at="2023-07-28T10:26:38 IST" duration-ms="1427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@2f953efd]" started-at="2023-07-28T10:26:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-28T10:26:44 IST" duration-ms="5911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test to verify that if the user enters given URL after login and no items are in the cart, the page access should be denied"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Feature for end-to-end testing of Sauce Demo website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@2f953efd]" started-at="2023-07-28T10:26:44 IST" name="tearDown" finished-at="2023-07-28T10:26:44 IST" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@2f953efd]" started-at="2023-07-28T10:26:44 IST" name="setUp" finished-at="2023-07-28T10:26:46 IST" duration-ms="1376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@2f953efd]" started-at="2023-07-28T10:26:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-28T10:26:56 IST" duration-ms="10245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test to verify that if item is added to the cart of one user, that item should not be added to the cart for another user."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Feature for end-to-end testing of Sauce Demo website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@2f953efd]" started-at="2023-07-28T10:26:56 IST" name="tearDown" finished-at="2023-07-28T10:26:56 IST" duration-ms="385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@2f953efd]" started-at="2023-07-28T10:26:56 IST" name="setUp" finished-at="2023-07-28T10:26:58 IST" duration-ms="1367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@2f953efd]" started-at="2023-07-28T10:26:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-28T10:27:11 IST" duration-ms="13381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test to verify that an error message should come if all items are removed from the cart list and then checkout button is clicked."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Feature for end-to-end testing of Sauce Demo website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@2f953efd]" started-at="2023-07-28T10:27:11 IST" name="tearDown" finished-at="2023-07-28T10:27:12 IST" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.qa.atliq.practical.runners.TestRunner@2f953efd]" started-at="2023-07-28T10:27:12 IST" name="tearDownClass" finished-at="2023-07-28T10:27:12 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.qa.atliq.practical.runners.TestRunner -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Cross-Browser Test Suite -->
+</testng-results>
